@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+.main::before{
+    content: "";
+    display: block;
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translateX(-50%) skewY(-8deg);
+    background-color: #f6c90e;
+    z-index: -1;
+    -webkit-animation: App_wave_3CtRm 8s ease-in-out infinite alternate;
+    animation: App_wave_3CtRm 8s ease-in-out infinite alternate;
+}
+.our-product{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: scroll;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.our-product::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #f6c90e;
+    top: -20%;
+    left: -50%;
+    z-index: 0;
+}
+.our-product span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.our-product img{
+    width: 50px;
+    position: relative;
+    margin-top: 20px;
+}
+.our-product h2{
+    color: #303841;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+}
+#item img{
+    background-color: grey;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;   
+}
+#item h2{
+    color: #303841;
+    font-family: 'Rubik', sans-serif;
+}
+#item h3{
+    display: block;
+    color: #303841;
+    font-family: 'Rubik', sans-serif;
+}
+#item button{
+    cursor: pointer;
+    background-color: #f6c90e;
+    font-weight: 700;
+    font-size: 14px;
+    width: auto;
+    height: 46px;
+    min-width: 46px;
+    padding: 16px 20px;
+    border-radius: 100px;
+    transition: all .25s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+#item p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.cart{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+/* Cart */
+.cart{
+    font-family: 'Rubik', sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: scroll;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.cart::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #f6c90e;
+    top: -20%;
+    left: -50%;
+    z-index: 0;
+}
+.cart img{
+    width: 50px;
+    position: relative;
+    margin-top: 20px;  
+}
+.cart h2{
+    color: #303841;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+}
